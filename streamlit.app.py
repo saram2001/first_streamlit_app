@@ -36,7 +36,7 @@ streamlit.text(fruityvice_response)
 
 #New section to display fruityvice api response
 streamlit.header('Fruityvice Fruit advice!')
-fruity_choice = streamlit.text_input('What Fruit would you like informatiopn about?', 'apple')
+fruity_choice = streamlit.text_input('What Fruit would you like informatiopn about?', 'kiwi')
 streamlit.write('The user entered', fruity_choice)
 
 
