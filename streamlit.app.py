@@ -41,8 +41,8 @@ streamlit.text(fruityvice_response)
 #New Section to display fruityvice api response
 streamlit.header('Fruityvice Fruit Advice!')
 try:
-  kiwi = streamlit.text_input('What fruit wouls you like information about?')
-  if not kiwi:
+  fruit_choice= streamlit.text_input('What fruit wouls you like information about?')
+  if not fruit_choice:
        streamlit.error("please select a fruit to get information.")
   else:
      back_from_function = get_fruityvice_data(fruit_choice)
