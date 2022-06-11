@@ -64,3 +64,5 @@ streamlit.header("The fruit load list contains:")
 
 streamlit.dataframe (my_data_rows)
 
+# don't run anything past here while we troubleshoot
+streamlit.stop()
